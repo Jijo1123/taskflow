@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: shopmern-api
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    envVars:
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: FRONTEND_URL
+        value: YOUR_VERCEL_FRONTEND_URL
