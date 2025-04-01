@@ -1,6 +1,6 @@
 "use client"
 
-import  from "../frontend/src/App,page.tsx"
+import  from "../frontend/src/App,page.tsx,"
 
 export default function SyntheticV0PageForDeployment() {
   return <App />
